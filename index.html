@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hello,<br>I'am <span class="home__title-color">Praveen S G</span></h1>
+
+                <a href="#contact" class="button">Contact</a>
+                <a href="img/resume_praveensg.pdf" class="button" target="_blank">Resume</a>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/praveen-s-g-832643229/" class="home__social-icon">
+                    <iconify-icon icon="mdi:linkedin"></iconify-icon>
+                </a>
+                <a href="https://github.com/praveensg0" class="home__social-icon">
+                    <iconify-icon icon="ri:github-fill"></iconify-icon>
+                </a>
+                <a href="https://leetcode.com/praveen_sg/" class="home__social-icon">
+                    <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                </a>
+            </div>
+
+
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="65" y="60" href="img/port.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about__container bd-grid about">
+                <div class="about__data">
+                </div>
+                <div class="about__description">
+                    <p class="about__text">
+                        Greetings! I'm still in the early stages of my journey in web development and have a solid
+                        foundation in the basics.
+                        I'm currently pursuing a degree in Electrical and Electronics Engineering at Nitte Meenakshi
+                        Institute of Technology in Bangalore. I'm in my third year of study and have a deep fascination
+                        for technology and electronics.
+                        My primary interest lies in the field of electronics, where I explore and delve into the
+                        intricacies of electronic circuits, systems, and innovations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="simple-icons:cplusplus"></iconify-icon>
+                        <span class="skills__name">C++</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="akar-icons:python-fill"></iconify-icon>
+                        <span class="skills__name">Python</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="carbon:data-structured"></iconify-icon>
+                        <span class="skills__name">Data Structures</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="simple-icons:thealgorithms"></iconify-icon>
+                        <span class="skills__name">Algorithms</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="simple-icons:autodesk"></iconify-icon>
+                        <span class="skills__name">AutoCAD</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon skills__matlab" icon="devicon-plain:matlab"></iconify-icon>
+                        <span class="skills__name">MATLAB</span>
+                    </div>
+                </div>
+
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="file-icons:vhdl"></iconify-icon>
+                        <span class="skills__name">Verilog and VHDL</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="devicon-plain:css3"></iconify-icon>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="ri:html5-fill"></iconify-icon>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <iconify-icon class="skills__icon" icon="ri:javascript-fill"></iconify-icon>
+                        <span class="skills__name">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills__data-wide">
+                    <div class="skills__names">
+                        <!-- <iconify-icon class="skills__icon" icon="ci:note"></iconify-icon> -->
+                        <span class="skills__name">
+                            Libraries like NumPy, SciPy, Matplotlib, Pandas, Seaborn<br>
+                            Good knowledge of OOPs, Machine Learning, simulation in LT Spice
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__item">
+                    <a href="" class="work__img" data-sr="enter top over 1s">
+                        <img src="img/KPCL-Logo.png" alt="">
+                    </a>
+
+                </div>
+                <div class="work__item">
+                    <div class="work__text" data-sr="enter bottom over 1s">
+                        <p>KPCL (Karnataka Power Corporation Limited)</p>
+                        <p>Internship, Bengaluru</p>
+                        <p>Duration: 1 month (Sept 2023)</p>
+                    </div>
+                    <br>
+                    <div class="work__text2" data-sr="enter right over 1s">
+                        <p>• Participated in an internship focused on electrical energy generation using steam and gas
+                            and its distribution.</p>
+                        <p>• Gained hands-on experience with power generation equipment, including turbines and boilers.
+                        </p>
+                        <p>• Assisted in maintaining electrical systems for reliable power supply.</p>
+                        <p>• Learned safety protocols and contributed to process improvement initiatives.</p>
+                        <p>• Utilized data analysis tools for operational insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--===== CONTACT =====-->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title"><span style="color: var(--first-color);">Contact</span></h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button class="button" type="submit">Submit</button>
+                </form>
+                <p id="success-message" style="display: none;">Thank you for your message. I'll get back to you soon.
+                </p>
+            </div>
+        </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title"></p>
+            <div class="footer__social">
+                <a href="https://auth.geeksforgeeks.org/user/praveen123sagar" class="footer__icon">
+                    <iconify-icon icon="simple-icons:geeksforgeeks"></iconify-icon>
+                </a>
+                <a href="https://www.instagram.com/praveensg_/" class="footer__icon">
+                    <iconify-icon icon="mdi:instagram"></iconify-icon>
+                </a>
+<!--                <a href="#" class="footer__icon">
+                    <iconify-icon icon="line-md:twitter"></iconify-icon>
+                </a> -->
+            </div>
+            <p class="footer__copy">&#169; Praveen S G. All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/script.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
