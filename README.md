@@ -54,13 +54,13 @@ To customize this portfolio for your own use, follow these steps:
 
 1. **Update Personal Information**: Replace the content in the HTML file with your own details, such as your name, introduction, skills, work experience, and contact information.
 
-2. **Add Your Resume**: Replace the resume link (`href`) in the HTML with the URL to your own resume file.
+2. **Add Your Resume**: Replace the resume link (`href`) in the HTML with the URL to your own resume file in the `assets` directory.
 
 3. **Social Media Links**: Get your social media links from the `index.html` file.
 
-4. **Styling**: Modify the `style.css` file to change the website's appearance to match your preferences.
+4. **Styling**: Modify the `style.css` file in the `assets` directory to change the website's appearance to match your preferences.
 
-5. **Script**: Customize the `script.js` file to include additional functionality or features.
+5. **Script**: Customize the `script.js` file in the `assets` directory to include additional functionality or features.
 
 6. **Images**: Replace the images in the `img` directory with your own pictures.
 
