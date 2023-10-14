@@ -1,3 +1,12 @@
+<!--
+    This website is open source and available under the MIT License.
+    
+    MIT License:
+    - Copyright © Praveen S G
+    - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+    - For more details, please refer to the LICENSE file.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,8 +20,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+    // Get the public key from EmailJS dashboard.emailjs.com/admin/account 
+            emailjs.init('YOUR_PUBLIC_KEY');
+        })();
+    </script>
+    
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Portfolio</title>
 </head>
@@ -48,7 +63,7 @@
                 <h1 class="home__title">Hello,<br>I'am <span class="home__title-color">Praveen S G</span></h1>
 
                 <a href="#contact" class="button">Contact</a>
-                <a href="assets/resume_praveensg.pdf" class="button" target="_blank">Resume</a>
+                <a href="assets/resume_cv.pdf" class="button" target="_blank">Resume</a>
 
             </div>
 
@@ -261,7 +276,7 @@
                 <a href="https://www.instagram.com/praveensg_/" class="footer__icon">
                     <iconify-icon icon="mdi:instagram"></iconify-icon>
                 </a>
-<!--                <a href="#" class="footer__icon">
+                <!--                <a href="#" class="footer__icon">
                     <iconify-icon icon="line-md:twitter"></iconify-icon>
                 </a> -->
             </div>
@@ -275,6 +290,8 @@
         <!--===== MAIN JS =====-->
         <script src="assets/script.js"></script>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </body>
 
 </html>
