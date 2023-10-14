@@ -1,3 +1,13 @@
+/* 
+    This website is open source and available under the MIT License.
+    
+    MIT License:
+    - Copyright © Praveen S G
+    - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+    - For more details, please refer to the LICENSE file.
+*/
+
+
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
@@ -253,9 +263,7 @@ img {
 /* ===== ABOUT =====*/
 .about {
     background-color: #fff;
-    /* Set your desired background color */
     box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-    /* Apply shadow */
     padding: 2rem;
     border-radius: 0.5rem;
 }
@@ -290,16 +298,13 @@ img {
 .skills__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Two columns */
     grid-template-rows: auto;
     grid-column-gap: 2rem;
-    /* Adjust this value as needed */
     row-gap: 0.21rem;
     justify-content: space-between;
     text-align: center;
 }
 
-/* Ensure the Libraries button spans both columns */
 .skills__subtitle {
     margin-bottom: var(--mb-2);
 }
@@ -311,7 +316,6 @@ img {
 .skills__data-wide {
     grid-column: span 2;
     width: 100%;
-    /* Set the width to 100% to cover both columns */
     position: relative;
     font-weight: 600;
     padding: 0.5rem 1rem;
@@ -330,7 +334,6 @@ img {
     border-radius: 0.5rem;
     box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
     text-align: center;
-    /* Center the content in each box */
 }
 
 .skills__icon {
@@ -343,7 +346,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Center the text horizontally */
 }
 
 /* ===== WORK =====*/
@@ -352,11 +354,8 @@ img {
     justify-content: center;
     align-items: center;
     max-width: 1000px;
-    /* Set your desired maximum width */
     margin: 0 auto;
-    /* Center the container horizontally */
     padding: 0 20px;
-    /* Add horizontal padding */
 }
 
 .work__item {
@@ -369,7 +368,6 @@ img {
 .work__img {
     max-width: 100%;
     margin-bottom: 20px;
-    /* Add spacing between the image and text */
 }
 
 .work__text {
@@ -391,7 +389,6 @@ img {
 /* Contact Section */
 #contact {
     background-color: #fff;
-    /* Use the custom property for background color */
     padding: 20px 0;
     text-align: center;
     display: flex;
@@ -403,7 +400,6 @@ img {
 #contact h2 {
     color: #333;
     font-size: var(--h2-font-size);
-    /* Use the custom property for font size */
     margin-bottom: 20px;
 }
 
@@ -427,7 +423,6 @@ img {
 
 #contact label {
     font-size: var(--normal-font-size);
-    /* Use the custom property for font size */
     color: #333;
 }
 
@@ -436,7 +431,6 @@ img {
     width: 100%;
     padding: 8px;
     font-size: var(--normal-font-size);
-    /* Use the custom property for font size */
     border: 1px solid #333;
     border-radius: 6px;
     background-color: #fff;
@@ -445,7 +439,6 @@ img {
 #contact button {
     display: inline-block;
     background-color: var(--first-color);
-    /* Use the custom property for button background color */
     color: #fff;
     padding: 0.75rem 2.5rem;
     font-family: var(--body-font);
@@ -466,8 +459,7 @@ img {
 #success-message {
     text-align: center;
     font-size: var(--smaller-font-size);
-    /* Use the custom property for font size */
-    color: #FF5733;
+    color: var(--second-color);
     display: none;
 }
 
@@ -650,6 +642,6 @@ img {
 
     .home__img {
         width: 450px;
-        bottom: 1rem; /* Adjust this value to create some space below the header */
+        bottom: 1rem; 
     }
 }

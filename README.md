@@ -68,6 +68,10 @@ To customize this portfolio for your own use, follow these steps:
 
 8. **Favicon**: Replace the `favicon.ico` file with your own favicon.
 
+9. **Connact Me Section**:
+   - Replace the `YOUR_SERVICE_ID` and `YOUR_TEMPLATE_ID` in `script.js` file in the `assets` directory.
+   - Replace the `YOUR_PUBLIC_KEY` in `index.html`. You can get the required IDs by creating account in [EmailJS](https://dashboard.emailjs.com/admin) 
+
 ## Technologies Used
 
 - HTML5
@@ -75,6 +79,7 @@ To customize this portfolio for your own use, follow these steps:
 - JavaScript
 - ScrollReveal.js (for animations)
 - Iconify (for icons)
+- EmailJS
 
 ## License
 
